@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HarvestPack - From Farm to Package</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Harvest<span>Pack</span></div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-btn">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <h1>From Farm to Package</h1>
+        <p>We grow premium quality produce and provide innovative packaging solutions to deliver freshness straight to your doorstep.</p>
+        <a href="#contact" class="btn">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About Us</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Our Story</h3>
+          <p>Founded in 2012, HarvestPack began as a small family farm with a passion for sustainable agriculture. Today, we've grown into a full-service operation that handles everything from seed to packaged product.</p>
+          <p>Our mission is to revolutionize the farming industry by combining traditional farming techniques with innovative packaging solutions that preserve freshness, reduce waste, and deliver exceptional quality to consumers.</p>
+          <p>We take pride in our environmentally friendly practices and our commitment to supporting local communities.</p>
+        </div>
+        <div class="about-image">
+          <img src="/api/placeholder/600/400" alt="Farm fields with workers harvesting produce">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Services</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-img">
+            <img src="/api/placeholder/400/300" alt="Organic Farming">
+          </div>
+          <div class="service-content">
+            <h3>Organic Farming</h3>
+            <p>We grow a wide variety of fruits and vegetables using sustainable organic farming methods that protect the environment and produce healthier crops.</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img">
+            <img src="/api/placeholder/400/300" alt="Custom Packaging">
+          </div>
+          <div class="service-content">
+            <h3>Custom Packaging</h3>
+            <p>Our innovative packaging solutions are designed to maintain freshness, extend shelf life, and reduce environmental impact while showcasing your brand.</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img">
+            <img src="/api/placeholder/400/300" alt="Distribution">
+          </div>
+          <div class="service-content">
+            <h3>Distribution</h3>
+            <p>We offer comprehensive logistics solutions to ensure your products reach their destination fresh and on time, whether locally or internationally.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Process</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>Planting</h3>
+            <p>We carefully select and plant premium quality seeds in our nutrient-rich soil.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>Growing</h3>
+            <p>Our crops are nurtured using sustainable farming practices and monitored for optimal growth.</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>Harvesting</h3>
+            <p>Produce is hand-picked at peak ripeness to ensure maximum flavor and nutritional value.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>Sorting & Quality Control</h3>
+            <p>Each item undergoes rigorous inspection to meet our high-quality standards.</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>Packaging</h3>
+            <p>Products are carefully packaged in eco-friendly materials designed to maintain freshness.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>Distribution</h3>
+            <p>Packaged products are delivered to retailers or directly to consumers, ensuring freshness every step of the way.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Products</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-img">
+            <img src="/api/placeholder/300/200" alt="Fresh Vegetables Pack">
+          </div>
+          <div class="product-info">
+            <h3>Fresh Vegetables Pack</h3>
+            <p>Assorted seasonal vegetables in eco-friendly packaging</p>
+            <div class="product-price">$24.99</div>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="/api/placeholder/300/200" alt="Fruit Box">
+          </div>
+          <div class="product-info">
+            <h3>Seasonal Fruit Box</h3>
+            <p>Hand-picked fresh fruits in biodegradable packaging</p>
+            <div class="product-price">$29.99</div>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="/api/placeholder/300/200" alt="Organic Herbs">
+          </div>
+          <div class="product-info">
+            <h3>Organic Herbs Bundle</h3>
+            <p>Fresh culinary herbs in resealable packaging</p>
+            <div class="product-price">$15.99</div>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="/api/placeholder/300/200" alt="Customized Packaging">
+          </div>
+          <div class="product-info">
+            <h3>Custom Packaging Solutions</h3>
+            <p>Tailored packaging for your specific product needs</p>
+            <div class="product-price">Contact for Quote</div>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact Us</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <div class="info-item">
+            <i>📍</i>
+            <div>
+              <h4>Location</h4>
+              <p>123 Farm Road, Greenville, CA 95945</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i>📱</i>
+            <div>
+              <h4>Phone</h4>
+              <p>+1 (555) 123-4567</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i>✉️</i>
+            <div>
+              <h4>Email</h4>
+              <p>info@harvestpack.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i>🕒</i>
+            <div>
+              <h4>Business Hours</h4>
+              <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+              <p>Saturday: 9:00 AM - 2:00 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3>HarvestPack</h3>
+          <p>From farm to package, we deliver quality and freshness in every product.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#products">Products</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Organic Farming</a></li>
+            <li><a href="#">Custom Packaging</a></li>
+            <li><a href="#">Wholesale Supply</a></li>
+            <li><a href="#">Distribution</a></li>
+            <li><a href="#">Consulting</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Newsletter</h3>
+          <p>Subscribe to our newsletter for updates and special offers.</p>
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 HarvestPack. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
