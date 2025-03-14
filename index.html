@@ -7,6 +7,37 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <script>
+    // Intersection Observer for scroll animations
+    document.addEventListener('DOMContentLoaded', function() {
+      // Select all elements with animation classes
+      const animatedElements = document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right, .zoom-in');
+      
+      // Create the observer
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          // Add the 'active' class when the element is in view
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            // Optional: Once the animation is complete, stop observing
+            // observer.unobserve(entry.target);
+          } else {
+            // Optional: Remove the 'active' class when out of view for reanimation
+            // entry.target.classList.remove('active');
+          }
+        });
+      }, {
+        threshold: 0.15, // Animate when 15% of the element is visible
+        rootMargin: '0px 0px -50px 0px' // Trigger slightly before the element enters the viewport
+      });
+      
+      // Observe all animated elements
+      animatedElements.forEach(element => {
+        observer.observe(element);
+      });
+    });
+  </script>
+
   <!-- Header -->
   <header>
     <div class="container">
